@@ -7,6 +7,7 @@ public class CurrencyExchange {
     private String from;
     private String to;
     private BigDecimal rate;
+    private String environmentPort;
 
     public CurrencyExchange() {}
 
@@ -47,5 +48,13 @@ public class CurrencyExchange {
 
     public void setRate(BigDecimal rate) {
         this.rate = rate;
+    }
+
+    public String getEnvironmentPort() {
+        return environmentPort;
+    }
+
+    public void setEnvironmentPort(String environmentPort) {
+        this.environmentPort = environmentPort;
     }
 }
