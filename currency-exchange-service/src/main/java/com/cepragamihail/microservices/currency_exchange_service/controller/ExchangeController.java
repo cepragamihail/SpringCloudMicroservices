@@ -1,6 +1,6 @@
 package com.cepragamihail.microservices.currency_exchange_service.controller;
 
-import com.cepragamihail.microservices.currency_exchange_service.models.CurrencyExchange;
+import com.cepragamihail.microservices.currency_exchange_service.entities.CurrencyExchange;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
